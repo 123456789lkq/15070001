@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong)UIButton *btn;
 @end
 
 @implementation ViewController
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"FUck, you!");
+    
 }
 
 - (void)didReceiveMemoryWarning {
